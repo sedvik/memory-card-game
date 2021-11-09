@@ -2,7 +2,6 @@ import React from 'react'
 import Header from './components/Header'
 import MemoryGame from './components/MemoryGame'
 import cards from './util/cardData'
-import './styles/App.css'
 
 function App () {
   return (
@@ -10,9 +9,9 @@ function App () {
       <Header />
       <MemoryGame
         cards={cards}
-        gameIsOver={true}
-        currentScore={3}
-        bestScore={7}
+        gameIsOver={false}
+        currentScore={12}
+        bestScore={12}
       />
     </div>
   )

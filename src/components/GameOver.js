@@ -14,10 +14,10 @@ function GameOver (props) {
     endingText = 'Not quite!'
   } else if (currentScore === bestScore) {
     endingText = 'You tied your previous best!'
-  } else if (currentScore > bestScore) {
-    endingText = 'You did better than your previous best!'
   } else if (currentScore === maxScore) {
     endingText = 'You got the best possible score. Nicely done!'
+  } else if (currentScore > bestScore) {
+    endingText = 'You did better than your previous best!'
   }
 
   return (

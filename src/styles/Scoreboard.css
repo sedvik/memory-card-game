@@ -1,0 +1,18 @@
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  user-select: none;
+}
+
+.score-container {
+  padding: 1rem;
+  background-color: beige;
+  border: 2px solid #75454A;
+  border-radius: 10px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.score-container p {
+  font-size: 1.8rem;
+}

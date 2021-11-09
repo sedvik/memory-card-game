@@ -9,10 +9,10 @@ function Scoreboard (props) {
 
   return (
     <div className="scoreboard">
-      <div className="score current-score">
+      <div className="score-container">
         <p>{`Score: ${currentScore}`}</p>
       </div>
-      <div className="score best-score">
+      <div className="score-container">
         <p>{`Best: ${bestScore}`}</p>
       </div>
     </div>
