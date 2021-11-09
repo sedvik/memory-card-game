@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useLayoutEffect } from 'react'
 import Scoreboard from './Scoreboard'
 import Gameboard from './Gameboard'
 import GameOver from './GameOver'
@@ -12,7 +12,7 @@ function MemoryGame () {
   const [bestScore, setBestScore] = useState(0)
 
   // Side Effect for card shuffling when component first mounts and every time the score updates. Also ends the game if the max possible score has been achieved.
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (currentScore === cards.length) {
       endGame()
     } else {
