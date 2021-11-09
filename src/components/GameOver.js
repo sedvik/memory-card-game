@@ -5,8 +5,20 @@ function GameOver (props) {
   const {
     currentScore,
     bestScore,
-    maxScore
+    maxScore,
+    resetGame
   } = props
+
+  function handleClick () {
+    // Determine if a new best score was obtained
+    let newBestScore
+    currentScore > bestScore
+      ? newBestScore = currentScore
+      : newBestScore = null
+
+    // Reset the game
+    resetGame(newBestScore)
+  }
 
   let endingText
 
@@ -25,7 +37,7 @@ function GameOver (props) {
       <div className="ending-text-container">
         <p>{endingText}</p>
       </div>
-      <button>Try Again</button>
+      <button onClick={handleClick}>Try Again</button>
     </div>
   )
 }

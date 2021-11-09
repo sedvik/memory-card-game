@@ -3,7 +3,7 @@ import Card from './Card'
 import '../styles/Gameboard.css'
 
 function Gameboard (props) {
-  const { cards } = props
+  const { cards, playRound } = props
 
   return (
     <div className="game-board">
@@ -12,9 +12,11 @@ function Gameboard (props) {
           return (
             <Card
               key={card.id}
+              id={card.id}
               src={card.src}
               alt={card.alt}
               title={card.title}
+              playRound={playRound}
             />
           )
         })

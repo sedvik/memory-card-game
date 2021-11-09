@@ -26,6 +26,7 @@
   align-items: center;
   width: 220px;
   height: 220px;
+  pointer-events: none;
 }
 
 .img-container img {
@@ -36,6 +37,7 @@
 .card .title-container {
   text-align: center;
   border-top: 2px solid #75454A;
+  pointer-events: none;
 }
 
 .title-container p {

@@ -10,8 +10,8 @@ function App () {
       <MemoryGame
         cards={cards}
         gameIsOver={false}
-        currentScore={12}
-        bestScore={12}
+        currentScore={3}
+        bestScore={7}
       />
     </div>
   )

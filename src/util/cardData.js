@@ -45,7 +45,7 @@ const cardTitles = [
   'Sarah'
 ]
 
-const cards = cardSources.map((source, i) => {
+const initialCards = cardSources.map((source, i) => {
   return {
     id: uniqid(),
     src: source,
@@ -55,4 +55,4 @@ const cards = cardSources.map((source, i) => {
   }
 })
 
-export default cards
+export default initialCards
