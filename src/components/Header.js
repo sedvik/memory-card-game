@@ -3,9 +3,9 @@ import '../styles/Header.css'
 
 function Header (props) {
   return (
-    <div>
-
-    </div>
+    <header>
+      <h1>Ed Edd n Eddy&apos;s Memory Game</h1>
+    </header>
   )
 }
 
