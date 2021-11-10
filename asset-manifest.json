@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.8eafa919.chunk.css",
+    "main.js": "/memory-card-game/static/js/main.a19c53ec.chunk.js",
+    "main.js.map": "/memory-card-game/static/js/main.a19c53ec.chunk.js.map",
+    "runtime-main.js": "/memory-card-game/static/js/runtime-main.57020724.js",
+    "runtime-main.js.map": "/memory-card-game/static/js/runtime-main.57020724.js.map",
+    "static/js/2.c96420c0.chunk.js": "/memory-card-game/static/js/2.c96420c0.chunk.js",
+    "static/js/2.c96420c0.chunk.js.map": "/memory-card-game/static/js/2.c96420c0.chunk.js.map",
+    "index.html": "/memory-card-game/index.html",
+    "static/css/main.8eafa919.chunk.css.map": "/memory-card-game/static/css/main.8eafa919.chunk.css.map",
+    "static/js/2.c96420c0.chunk.js.LICENSE.txt": "/memory-card-game/static/js/2.c96420c0.chunk.js.LICENSE.txt",
+    "static/media/Ed.99c24554.png": "/memory-card-game/static/media/Ed.99c24554.png",
+    "static/media/Edd.69f14523.png": "/memory-card-game/static/media/Edd.69f14523.png",
+    "static/media/Eddy.8766b35a.png": "/memory-card-game/static/media/Eddy.8766b35a.png",
+    "static/media/Jimmy.8c890567.png": "/memory-card-game/static/media/Jimmy.8c890567.png",
+    "static/media/Jonny.254637ad.png": "/memory-card-game/static/media/Jonny.254637ad.png",
+    "static/media/Kevin.c1258ca4.png": "/memory-card-game/static/media/Kevin.c1258ca4.png",
+    "static/media/Lee.60a65637.png": "/memory-card-game/static/media/Lee.60a65637.png",
+    "static/media/Marie.71b6bb57.png": "/memory-card-game/static/media/Marie.71b6bb57.png",
+    "static/media/May.73ebe4d0.png": "/memory-card-game/static/media/May.73ebe4d0.png",
+    "static/media/Nazz.d791fa90.png": "/memory-card-game/static/media/Nazz.d791fa90.png",
+    "static/media/Plank.1c3506fe.png": "/memory-card-game/static/media/Plank.1c3506fe.png",
+    "static/media/Rolf.e81cd3c4.png": "/memory-card-game/static/media/Rolf.e81cd3c4.png",
+    "static/media/Sarah.8ca54376.png": "/memory-card-game/static/media/Sarah.8ca54376.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57020724.js",
+    "static/js/2.c96420c0.chunk.js",
+    "static/css/main.8eafa919.chunk.css",
+    "static/js/main.a19c53ec.chunk.js"
+  ]
+}
